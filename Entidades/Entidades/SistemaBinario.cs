@@ -48,6 +48,9 @@ namespace Entidades
             return new SistemaBinario(binario);
         }
 
-
+        protected bool EsNumeracionValida(string valor) 
+        {
+            return base.EsNumeracionValida(valor);
+        }
     }
 }
