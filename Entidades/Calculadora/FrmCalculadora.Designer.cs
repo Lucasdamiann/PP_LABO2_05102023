@@ -1,6 +1,6 @@
 ﻿namespace Calculadora
 {
-    partial class Form1
+    partial class FrmCalculadora
     {
         /// <summary>
         ///  Required designer variable.
@@ -93,6 +93,7 @@
             txtPrimerOperando.Name = "txtPrimerOperando";
             txtPrimerOperando.Size = new Size(198, 36);
             txtPrimerOperando.TabIndex = 4;
+            txtPrimerOperando.TextChanged += txtPrimerOperando_TextChanged;
             // 
             // txtSegundoOperando
             // 
